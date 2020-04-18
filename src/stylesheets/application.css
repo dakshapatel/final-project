@@ -1,7 +1,257 @@
-@import url('~normalize.css/normalize.css');
-
-* {
-  box-sizing: border-box;
-}
+@import url("~bootstrap/dist/css/bootstrap.css");
 
 /* TODO */
+
+/* html,
+body {
+  height: 100%;
+} */
+
+/* ALL */
+
+.backgroundColor {
+  background-color: #d4d7dd;
+  height: 100vh;
+}
+
+.cardColor {
+  background-color: #eae9e9;
+}
+.navbarText {
+  color: white;
+}
+
+.nav {
+  background-color: rgb(53, 58, 64);
+}
+
+/* INDEX PAGE */
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1575377427642-087cf684f29d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-position: 0 -300px;
+}
+
+.indexBGImg {
+  background-color: #d4d7dd;
+}
+
+.indexHeadline {
+  font-size: 24px;
+  margin: 60px;
+  text-align: center;
+  font-family: fantasy;
+  color: black;
+  font-weight: bold;
+}
+
+.indexHeading {
+  color: #e3b04b;
+}
+
+.ctext4 div {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #2b2b28;
+  color: #e3b04b;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 22px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 200px;
+  margin-left: calc((100% - 200px * 3) / 4);
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+/* ABOUT */
+.aboutP1 {
+  margin: 20px 100px 0 100px;
+}
+
+.aboutH4 {
+  margin: 20px 100px;
+}
+
+h5,
+h6 {
+  text-align: center;
+}
+
+/* FEATURED */
+
+.card-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.featuredCard {
+  margin: 50px 20px 90px 50px;
+  background-color: #eae9e9;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.regionsImg {
+  width: 250px;
+  height: 250px;
+  border: solid 2px black;
+}
+
+.regionsImgs {
+  margin-top: 10px;
+}
+
+.regionsCard {
+  margin: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.regionTitle {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.scrollPG {
+  margin-bottom: 70px;
+}
+
+.open_cacoa_bean {
+  width: 250px;
+  height: 250px;
+}
+
+.video {
+  text-align: center;
+}
+
+/* BLOG PAGE */
+
+.blogTile {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+.blogCard {
+  margin: 30px 30px 20px 30px;
+}
+
+.blogCardBottom {
+  margin: 30px 30px 100px 50px;
+}
+
+.blogP1 {
+  margin: 20px 100px 20px 100px;
+  font-size: 20px;
+}
+
+/* BLOGPAGES */
+.blogParagraph {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.french_broad {
+  width: 250px;
+  height: 250px;
+}
+
+.solsticeImg {
+  width: 500px;
+  height: 300px;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: #e3b04b;
+}
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(53, 58, 64);
+  color: #e3b04b;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* .main_div {
+  background-color: #d4d7dd;
+  height: auto;
+} */
+
+.fa {
+  padding-bottom: 60px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  /* background: #3b5998; */
+  color: #e3b04b;
+}
+
+.fa-facebook:hover {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  /* background: #55acee; */
+  color: #e3b04b;
+}
+
+.fa-twitter:hover {
+  color: white;
+}
+
+.fa-linkedin {
+  color: #e3b04b;
+}
+
+.fa-linkedin:hover {
+  color: white;
+}
+
+.fa-pinterest {
+  color: #e3b04b;
+}
+
+.fa-pinterest:hover {
+  color: white;
+}

@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="stylesheets/application.css">
-  <title>Document Title</title>
-</head>
-<body>
-  <h1>Welcome to CS 2350!</h1>
-  
-  <script src="javascripts/application.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="stylesheets/application.css" />
+    <title>Chocolatier</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="indexBGImg">
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" style="color: #e3b04b;" href="index.html"
+        >HOME<span class="sr-only">(current)</span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="color: #e3b04b;" href="about.html"
+              >About</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1 class="indexHeading">
+        Chocolatier Craft Chocolate
+      </h1>
+
+      <p class="indexHeadline">
+        Chocolatier features an expansive collection of craft chocolate from
+        around the globe, where the single unifying theme is cacao beans of
+        respectable provenance.
+      </p>
+      <p class="lead"></p>
+    </div>
+    <div class="featuredContent">
+      <div class="ctext4 clearfix">
+        <a href="regions.html"> <div>Regions</div></a>
+        <a href="featuredChocolate.html"> <div>Featured Chocolates</div></a>
+        <a href="blog.html"> <div>Blog</div></a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-sm-4">Copyright 2020</div>
+        <div class="col-sm-4">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        <div class="col-sm-4">Terms of Use</div>
+      </div>
+    </footer>
+
+    <script src="javascripts/application.js"></script>
+  </body>
 </html>
